@@ -37,7 +37,9 @@ class CustomButton extends StatelessWidget {
         ),
       ),
       icon: ImageIcon(image, color: iconColor ?? Colors.white),
-      label: Text('$text', style: TextStyle(color: textColor, fontSize: 12)),
+      label: Center(
+        child: Text('$text', style: TextStyle(color: textColor, fontSize: 12)),
+      ),
     );
   }
 }

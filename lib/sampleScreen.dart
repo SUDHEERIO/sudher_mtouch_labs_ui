@@ -175,7 +175,7 @@ class _SamplescreenState extends State<Samplescreen> {
               text: 'See all ',
               onPressed: () {},
               height: 60,
-              width: 90,
+              width: 100,
               textColor: Colors.orange,
               borderColor: Colors.orange,
               image: null,
